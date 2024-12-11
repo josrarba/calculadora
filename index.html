@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS para estilos -->
+    <title>Calculadora</title> <!-- Título de la pestaña del navegador -->
+</head>
+<body>
+    <div class="calculadora"> <!-- Contenedor principal de la calculadora -->
+        <input type="text" id="resultado" disabled> <!-- Campo de texto para mostrar el resultado -->
+        <div class="botones"> <!-- Contenedor para los botones de la calculadora -->
+            <button onclick="limpiar()">C</button> <!-- Botón para limpiar el resultado -->
+            <button onclick="agregarNumero('/')">/</button> <!-- Botón para la operación de división -->
+            <button onclick="agregarNumero('*')">*</button> <!-- Botón para la operación de multiplicación -->
+            <button onclick="agregarNumero('-')">-</button> <!-- Botón para la operación de resta -->
+            <button onclick="agregarNumero('7')">7</button> <!-- Botón para el número 7 -->
+            <button onclick="agregarNumero('8')">8</button> <!-- Botón para el número 8 -->
+            <button onclick="agregarNumero('9')">9</button> <!-- Botón para el número 9 -->
+            <button onclick="agregarNumero('+')">+</button> <!-- Botón para la operación de suma -->
+            <button onclick="agregarNumero('4')">4</button> <!-- Botón para el número 4 -->
+            <button onclick="agregarNumero('5')">5</button> <!-- Botón para el número 5 -->
+            <button onclick="agregarNumero('6')">6</button> <!-- Botón para el número 6 -->
+            <button onclick="calcular()">=</button> <!-- Botón para calcular el resultado -->
+            <button onclick="agregarNumero('1')">1</button> <!-- Botón para el número 1 -->
+            <button onclick="agregarNumero('2')">2</button> <!-- Botón para el número 2 -->
+            <button onclick="agregarNumero('3')">3</button> <!-- Botón para el número 3 -->
+            <button onclick="agregarNumero('0')">0</button> <!-- Botón para el número 0 -->
+        </div>
+    </div>
+    <script src="index.js"></script> <!-- Enlaza el archivo JavaScript para la funcionalidad -->
+</body>
+</html>
